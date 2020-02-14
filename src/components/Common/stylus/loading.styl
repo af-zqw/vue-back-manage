@@ -1,0 +1,64 @@
+vw(size)
+  (size/13.66)vw
+.loading-index
+  position: fixed;
+  z-index: 99
+  left: 0;
+  right 0;
+  top: 0;
+  bottom: 0;
+  width: 100%
+  height 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  background: rgba(0,0,0,0.2)
+  i
+    position: fixed
+    font-size: vw(30)
+    cursor pointer
+    color: #ff005a
+    top: vw(90)
+    right: vw(60)
+  .loading-box
+    width: vw(200)
+    height: vw(200)
+    box-sizing: border-box
+    border-radius: 50%;
+    border-top: 10px solid #3888fa
+    position relative
+    animation: a1 2s linear infinite
+  .loading-box:before,.loading-box:after
+    content: ''
+    width: vw(200)
+    height: vw(200)
+    position: absolute
+    left: 0
+    top: vw(-10)
+    box-sizing: border-box
+    border-radius: 50%;
+  .loading-box:before
+    border-top:10px solid #e67e22
+    transform: rotate(120deg)
+  .loading-box:after
+    border-top:10px solid #ff005a
+    transform: rotate(240deg)
+  .loading-box span 
+    position: absolute
+    width: vw(200)
+    height: vw(200)
+    color: #000
+    font-size: vw(15)
+    text-align: center
+    line-height: vw(200)
+    animation: a2 2s linear infinite
+  @keyframes a1 {
+    to{
+      transform: rotate(360deg)
+    }
+  }
+  @keyframes a2 {
+    to{
+      transform: rotate(-360deg)
+    }
+  }

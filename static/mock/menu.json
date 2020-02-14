@@ -1,0 +1,25 @@
+{
+  "ret":true,
+  "data":{
+    "menuList":[
+      { "index":"1","label":"常用","icon":"el-icon-location",
+        "group":[{"index":"1-1","label":"表格表单弹窗","path":"Table/index"},
+               {"index":"1-2","label":"echarts","path":"Echart/index"},
+               {"index":"1-3","label":"tab+table","path":"Tab/index"},
+               {"index":"1-4","label":"综合-设备管理","path":"Device/index"},
+               {"index":"1-5","label":"抽屉","path":"Drawer/index"}]},
+        { "index":"2","label":"丰富","icon":"el-icon-menu",
+          "group":[{"index":"2-1","label":"卡片","path":"Card/index"},
+                {"index":"2-2","label":"添加菜单","path":"AddMenu/index"},
+                {"index":"2-3","label":"生成名片","path":"Businesscard/index"},
+                {"index":"2-4","label":"搜索高亮","path":"bright/index"},
+                {"index":"2-5","label":"地图","path":"Map/index"},
+                {"index":"2-6","label":"标签逻辑","path":"Tag/index"},
+                {"index":"2-7","label":"拖拽","path":"Drag/index"},
+                {"index":"2-8","label":"响应式","path":"Responsive/index"}]},
+        { "index":"3","label":"相关","icon":"el-icon-s-promotion",
+          "group":[{"index":"3-1","label":"版权信息","path":"Version/index"},
+                  {"index":"3-2","label":"简单算法","path":"Algorithm/index"}]}
+    ]
+  }
+}

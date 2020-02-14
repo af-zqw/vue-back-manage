@@ -1,0 +1,140 @@
+vw(size)
+  (size/13.66)vw
+.tree-box>>>.el-tree-node.is-current
+  >.el-tree-node__content
+    background-color:rgba(64, 158, 255, 1)
+    color: #fff;
+// >代表子元素
+// .tree-box
+//   position: absolute
+//   z-index: 30
+.drawer-index
+  background: #ffffff
+  height: 100vh
+  position relative
+  padding: vw(10)
+  .drawer-btn
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translate(0,-50%)
+    height: vw(100)
+    width: vw(30)
+    text-align: center;
+    display: flex
+    justify-content: center
+    span
+      writing-mode:tb-rl
+      letter-spacing: 5px
+      font-size: vw(13)
+  .drawer-box
+    position: absolute
+    z-index: 3
+    top: 0
+    right: 0
+    bottom: 0
+    width: 60%
+    border-radius: vw(5)
+    background: #fff
+    box-shadow:0px 2px 9px 1px rgba(0, 0, 0, 0.12);
+    .clone-drawer
+      position: absolute
+      left: vw(-25)
+      top: 50%
+      transform: translate(0,-50%)
+      height: vw(100)
+      width: vw(30)
+      text-align: center;
+      display: flex
+      justify-content: center
+      span
+        writing-mode:tb-rl
+        letter-spacing: 5px
+        font-size: vw(13)
+    .drawer-header
+      height: vw(60)
+      line-height: vw(60)
+      padding-left: vw(20)
+      border-bottom: 1px solid #e8eaec
+    .drawer-content
+      padding:vw(10) vw(15)
+      position: absolute
+      top: vw(61)
+      left: 0
+      right: 0
+      bottom: 0
+      .one-box
+        width: 25%
+        height: 100%;
+        float left
+        // border-right: 1px solid #e8eaec
+        overflow hidden
+        li
+          height: vw(40)
+          line-height: vw(40)
+          border-bottom: 1px solid #e8eaec
+          padding-left: vw(18)
+          cursor pointer
+        .activeLi
+          background: rgba(64, 158, 255, 0.12)
+        li:hover
+          background: rgba(64, 158, 255, 0.12)
+      .two-box
+        float left
+        width: 30%
+        height: 100%;
+        text-align: center
+        li
+          text-align: left
+          height: vw(40)
+          line-height: vw(40)
+          padding-left: vw(48)
+          cursor pointer
+      .opt-box
+        float left
+        width: 14%
+        height: 100%;
+        display: flex
+        text-align: center
+        flex-direction: column
+        .opt-btn
+          display: flex
+          flex: 1
+          flex-direction: column
+          justify-content:center
+          align-items: center
+          border: 1px solid rgba(64, 158, 255, 0.5)
+          border-radius: vw(8)
+          button
+            background: rgba(64, 158, 255, 1)
+            border: none
+            color: #fff
+            width: 80%
+            height: vw(35)
+            font-size: vw(18)
+            margin-bottom: vw(40)
+            cursor pointer
+          .disabledBtn
+            background:rgba(64, 158, 255, 0.6)
+            cursor auto
+      .there-box
+        float left
+        width: 30%
+        height: 100%
+        text-align: center
+        li
+          text-align: left
+          height: vw(40)
+          line-height: vw(40)
+          padding-left: vw(48)
+          cursor pointer
+ul,li
+  padding: 0
+  margin: 0
+  list-style: none
+.slider-enter-active //进入的过程
+  transition: all .5s
+.slider-leave-active  // 离开的过程
+  transition: all .4s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+.slider-enter,.slider-leave-to  // 进入之前和离开之后
+  transform: translateX(99%)

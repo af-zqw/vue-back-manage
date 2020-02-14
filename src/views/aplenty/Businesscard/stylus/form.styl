@@ -1,0 +1,61 @@
+vw(size)
+  (size/13.66)vw
+.form-index
+  padding: vw(20)
+  background: #ffffff
+  .form-box
+    width: vw(600)
+    margin: 0 auto
+    overflow hidden
+    h1
+      font-size: vw(35)
+      text-align: center
+    .upload-wrapper
+      display: flex
+      align-items: center
+      margin: vw(30) 0 vw(15)
+      span
+        font-size: 14px
+        width: vw(110)
+        text-align: right
+      .clear-img
+        margin-left: vw(20)
+        font-size: vw(20)
+        cursor pointer
+        transition: all 0.5s
+        &:hover
+          color:rgb(64, 158, 255, 1)
+  .form-box>>>.el-upload
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  .form-box>>>.el-upload:hover
+    border-color: #409EFF;
+  .avatar-uploader-icon
+    font-size: vw(28);
+    color: #8c939d;
+    width: vw(140)
+    height: vw(140)
+    line-height: vw(140)
+    text-align: center;
+  .avatar
+    width: vw(140)
+    height: vw(140)
+    display: block;
+  .closeBtn
+    border-top: 0
+    padding-top: vw(10)
+.form-index>>>.el-dialog
+  width: vw(400)
+  .el-dialog__body
+    padding: 0 vw(20) vw(10)
+  .dialog-box
+    display: flex
+    align-items: center
+    justify-content: space-between
+    img
+      width: vw(150)
+      height: vw(150)
+      border: 1px dashed #d9d9d9

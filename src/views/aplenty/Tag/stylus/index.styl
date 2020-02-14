@@ -1,0 +1,49 @@
+vw(size)
+  (size/13.66)vw
+.tag-index
+  background: #ffffff
+  padding: vw(15)
+  .select-box
+    padding: vw(15) vw(20) vw(5)
+    border: 1px solid rgba(64, 158, 255, 0.5)
+    border-radius: vw(4)
+    margin-bottom: vw(20)
+    p
+      margin-top: vw(6)
+    .tag-item
+      position relative
+      display: inline-block
+      padding: vw(4) vw(20)
+      margin-right: vw(13)
+      border-radius: vw(7)
+      cursor default
+      border: 1px solid rgba(64,158,255,1)
+      margin-bottom: vw(10)
+      i
+        position: absolute
+        right: vw(3)
+        top: 50%
+        transition: all 0.3s
+        transform: translate(0,-50%)
+        cursor pointer
+        &:hover
+          color: rgba(64, 158, 255, 1)
+  .tag-box
+    padding: vw(15) vw(20)
+    border: 1px solid rgba(64, 158, 255, 0.5)
+    border-radius: vw(4)
+    .tag-row
+      margin-bottom:vw(10)
+    .tag-row:last-child
+      margin-bottom: 0
+    span
+      vertical-align: middle
+    .tag-item
+      display: inline-block
+      padding: vw(4) vw(15)
+      margin-right: vw(13)
+      border-radius: vw(7)
+      cursor pointer
+    .active
+      background: rgba(64,158,255,1)
+      color: #FFf

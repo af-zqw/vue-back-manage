@@ -1,0 +1,32 @@
+{
+  "ret":true,
+  "data":{
+    "deviceList":[
+      {"name":"设备一","date":"2019-03-24","adress":"深圳","type":"电动","alert":true},
+      {"name":"设备二","date":"2019-03-24","adress":"上海","type":"汽油","alert":true},
+      {"name":"设备三","date":"2019-03-24","adress":"北京","type":"电动","alert":false},
+      {"name":"设备四","date":"2019-03-24","adress":"广州","type":"汽油","alert":true},
+      {"name":"设备五","date":"2019-03-24","adress":"南京","type":"电动","alert":true},
+      {"name":"设备六","date":"2019-03-24","adress":"丽江","type":"电动","alert":false},
+      {"name":"设备七","date":"2019-03-24","adress":"成都","type":"汽油","alert":false},
+      {"name":"设备八","date":"2019-03-24","adress":"东京","type":"电动","alert":false},
+      {"name":"设备九","date":"2019-03-24","adress":"华盛顿","type":"汽油","alert":true},
+      {"name":"设备十","date":"2019-03-24","adress":"成都","type":"汽油","alert":true},
+      {"name":"设备十一","date":"2019-03-24","adress":"深圳","type":"汽油","alert":false},
+      {"name":"设备十二","date":"2019-03-24","adress":"北京","type":"汽油","alert":true},
+      {"name":"设备十三","date":"2019-03-24","adress":"深圳","type":"汽油","alert":false},
+      {"name":"设备十四","date":"2019-03-24","adress":"北京","type":"电动","alert":true},
+      {"name":"设备十五","date":"2019-03-24","adress":"深圳","type":"电动","alert":true},
+      {"name":"设备十六","date":"2019-03-24","adress":"北京","type":"电动","alert":false},
+      {"name":"设备十七","date":"2019-03-24","adress":"深圳","type":"汽油","alert":true},
+      {"name":"设备十八","date":"2019-03-24","adress":"北京","type":"电动","alert":true},
+      {"name":"设备十九","date":"2019-03-24","adress":"深圳","type":"电动","alert":false},
+      {"name":"设备二十","date":"2019-03-24","adress":"上海","type":"电动","alert":true},
+      {"name":"设备二十一","date":"2019-03-24","adress":"北京","type":"电动","alert":false},
+      {"name":"设备二十二","date":"2019-03-24","adress":"深圳","type":"电动","alert":true},
+      {"name":"设备二十三","date":"2019-03-24","adress":"北京","type":"电动","alert":true},
+      {"name":"设备二十四","date":"2019-03-24","adress":"深圳","type":"电动","alert":true},
+      {"name":"设备二十五","date":"2019-03-24","adress":"上海","type":"电动","alert":true}
+    ]
+  }
+}

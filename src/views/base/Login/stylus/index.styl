@@ -1,0 +1,104 @@
+vw(size)
+  (size/13.66)vw
+.login-index
+  // padding: vw(20)
+  position relative
+  height 100%
+  background-image: linear-gradient(125deg,#2c3e50,#27ea60,#2980b9,#e74c3c,#8e44ad);
+  background-size:400%;
+  animation: bgAnimation 15s infinite; 
+  .form-box>>>.el-input__inner
+    background: none
+    width: 100%;
+    height: vw(40)
+    outline: none
+    border: none
+    border-radius: unset
+    color: #606266
+    border-bottom:1px solid #fff
+    padding: vw(10) vw(20)
+    font-size: vw(15)
+    transition: all 0.6s
+    &:focus
+      border-bottom:1px solid #606266
+    &::-webkit-input-placeholder
+      color: rgba(0,0,0,0.3)
+      font-size: vw(14)
+  .form-box>>>.el-form-item__label
+    font-size: vw(15)
+    &::before
+      content: ''
+  .form-box
+    width: vw(300)
+    height: 60%;
+    padding: vw(30)
+    position: absolute
+    transition:all 0.4s
+    top: 50%;
+    right 5%;
+    transform: translate(0,-50%)
+    background: rgba(255,255,255,0.6)
+    h1
+      font-size: vw(30)
+      margin-bottom: vw(20)
+      text-align: center;
+      color: #606266
+    .verification-label
+      color: #606266
+      font-size: vw(15)
+      display: block
+      margin-bottom: vw(5)
+    .verification-input
+      padding: 0
+      display: inline-block;
+      background: none
+      width: 40%;
+      height: vw(20)
+      outline: none
+      border: none
+      border-radius: unset
+      color: #606266
+      border-bottom:1px solid #fff
+      padding: vw(10) vw(20)
+      font-size: vw(15)
+      transition: all 0.6s
+      &:focus
+        border-bottom:1px solid #606266
+      &::-webkit-input-placeholder
+        color: rgba(0,0,0,0.3)
+        font-size: vw(14)
+    .identify-block
+      display: inline-block
+      float: right 
+    .closeBtn
+      position: absolute;
+      bottom: vw(20)
+      right: vw(10)
+      border-top: 0
+      padding-top: 0
+      .el-button
+        background: #2c3e50
+        padding: vw(13) vw(30) !important
+        font-size: vw(14) !important
+        border: 0
+        background-size: 200%;
+        animation: bgAnimation 8s infinite;
+      .btn1
+        background-image: linear-gradient(to left,#c4e538,#009432,#c4e538);
+      .btn2
+        background-image: linear-gradient(to right,#12cbc4,#0652dd,#12cbc4);
+      .btn3
+        background-image: linear-gradient(to left,#fda7df,#9980fa,#fda7df);
+      .btn4
+        background-image: linear-gradient(to left,#ffc312,#ee5a24,#ffc312);
+@keyframes bgAnimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}

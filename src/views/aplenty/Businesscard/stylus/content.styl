@@ -1,0 +1,59 @@
+vw(size)
+  (size/13.66)vw
+.card-index
+  min-height: 100vh
+  background-size: cover
+  background-repeat: no-repeat
+  overflow-x: auto
+  position relative
+  .backBtn
+    position:absolute
+    top: vw(10)
+    left: vw(10)
+    color:#fff
+    font-size: vw(30)
+    cursor pointer
+    transition: all ease-in-out 250ms
+    &:hover
+      color: #304156
+  .box
+    width: vw(450)
+    background: rgba(0, 0, 0, 0.4);
+    padding: vw(40)
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    .box-img
+      width: vw(300)
+      border-radius: 50%;
+      width: vw(200)
+      height: vw(200)
+    h1
+      font-size: vw(40)
+      letter-spacing: vw(4)
+      font-weight: 100
+    h5
+      font-size: vw(20)
+      letter-spacing: vw(3)
+      font-weight: 100
+      margin: vw(20) 0 
+    p
+      text-align: justify
+      // text-align: center
+      word-break:break-word;
+      // word-break:break-word让文字自动换行
+    ul
+      margin: 0
+      padding: 0
+      li
+        display: inline-block
+        list-style: none;
+        margin: vw(10) vw(20) 0
+        padding: vw(5)
+        font-size: vw(30)
+        cursor pointer
+        transition: all ease-in-out 250ms
+      li:hover
+        color: #3888fa
